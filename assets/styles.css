@@ -1,0 +1,60 @@
+/*.reveal .slide-logo {
+  height: 50px !important;
+  max-width: unset !important;
+  max-height: unset !important;
+}*/
+.reveal .slide-number {
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+}
+
+.reveal .slide-logo {
+    position: absolute !important;
+    bottom: 10px !important;
+    right: 10px !important;
+    max-height: 100px !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+.reveal::before {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    left: 150px;
+    width: 100px;
+    height: 100px;
+    background-image: url("coa.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 15;
+}
+
+.reveal img, .reveal video, .reveal iframe {
+    max-width: 200%;
+    max-height: 200%;
+}
+
+.reveal h1, .reveal h2, .reveal h3 {
+  color: #3A7574; /* Dark red for headings */
+}
+
+/* Footer Styling */
+.reveal .footer {
+  color: #25485C; /* Dark teal for footer */
+  font-size: 0.7em;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+/* Highlight for Emphasis */
+.reveal strong {
+  color:  #3A7574; /* Dark red for bold text */
+}
+
+/* Slide Number */
+.reveal .slide-number {
+  color: #25485C; /* Dark teal for slide numbers */
+}

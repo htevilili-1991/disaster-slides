@@ -1,0 +1,255 @@
+---
+title: "Satellite Imagery & Machine Learning for Land Accounts"
+subtitle: "<b>Alternative Data Sources</b>"
+author: "Presented by Mrs. Susie Mento"
+format: 
+  revealjs:
+    theme: default
+    footer: "<b>Vanuatu Bureau of Statistics | Better Data, Better Decision</b>"
+    slide-number: true
+    self-contained: false
+    chalkboard: true
+    hide-inactive-cursor: true
+    hide-cursor-time: 5000
+    auto-scale: true
+    logo: assets/logo.png
+    css: assets/styles.css
+---
+
+## Background
+
+-   **Problem Statement**: The Government of Vanuatu struggles to monitor land use, environmental degradation, and resource allocation due to costly, slow, and outdated data collection methods.
+-   **Aim**: To establish a robust, machine learning-driven land accounting system that integrates Earth Observation (EO) Data and the System of Environmental-Economic Accounting (SEEA) framework into government decision-making processes.
+
+## Background
+
+::::: columns
+::: {.column width="70%"}
+-   **Objectives**:
+    -   Conduct assessments to understand current practices
+    -   Build government capacity to utilize machine learning and EO data methods
+    -   Develop a National Land Accounting System, and integrate into government decision-making systems
+:::
+
+::: {.column width="30%"}
+![](assets/output.png){width="100%" fig-align="center"} <small><em>Output: Land Cover visualized in GIS software</em></small>
+:::
+:::::
+
+## Why Land Accounts Using Satellite Imagery?
+
+::::: columns
+::: {.column width="70%"}
+-   **Fragmented system in Vanuatu:** government departments not coordinated or sharing information
+-   **Data Collection:** manual surveys and unsustainable digital projects, with limited coverage & long updated cycles
+:::
+
+::: {.column width="30%"}
+![](assets/efficiency.png){width="200%" fig-align="center"}
+:::
+:::::
+
+## Why Land Accounts Using Satellite Imagery?
+
+::::: columns
+::: {.column width="70%"}
+-   **Data Processing & Analysis:** basic GIS tools and capacity
+-   **Data Dissemination:** limited to no information shared with users
+:::
+
+::: {.column width="30%"}
+![](assets/efficiency.png){width="200%" fig-align="center"}
+:::
+:::::
+
+## Why Land Accounts Using Satellite Imagery?
+
+::::: columns
+::: {.column width="70%"}
+-   **What are the User Needs?**
+    -   Real-time up to date Monitoring
+    -   Integration with Decision-Making Systems
+    -   Capacity Building
+    -   Scalability & Cost Efficiency
+:::
+
+::: {.column width="30%"}
+![](assets/efficiency.png){width="200%" fig-align="center"}
+:::
+:::::
+
+## Land accounts: Maps to Data to Accounts
+
+::::: columns
+::: {.column width="70%"}
+**Needs**
+
+-   **Why Big Data?** - Satellite imagery provides extensive spatial and temporal data on land cover (free sentinel Landsat) - Machine learning enhances this by automating classification
+:::
+
+::: {.column width="30%"}
+![](assets/translation.png){width="150%" fig-align="center"}<small><em>Translation: Earth Observation Data to Land Accounts</em></small>
+:::
+:::::
+
+## Land accounts: Maps to Data to Accounts
+
+::::: columns
+::: {.column width="70%"}
+**Needs**
+
+-   **Why Big Data?**
+    -   Big Data integration ensures continuous, scalable land monitoring, supporting resource management and sustainable development.
+:::
+
+::: {.column width="30%"}
+![](assets/translation.png){width="150%" fig-align="center"}<small><em>Translation: Earth Observation Data to Land Accounts</em></small>
+:::
+:::::
+
+## Land accounts: Maps to Data to Accounts
+
+::::: columns
+::: {.column width="70%"}
+**Needs**
+
+-   **What are the User Needs?**
+    -   Real-time up to date Monitoring
+    -   Integration with Decision-Making Systems
+    -   Capacity Building
+    -   Scalability & Cost Efficiency
+:::
+
+::: {.column width="30%"}
+![](assets/translation.png){width="150%" fig-align="center"}<small><em>Translation: Earth Observation Data to Land Accounts</em></small>
+:::
+:::::
+
+```{=html}
+<!--
+## Methods, Tools & Skills
+
+::::: columns
+::: {.column width="70%"}
+**Processes**
+
+-   **Baseline**
+    -   **Department of Lands**: boundaries created using hand-drawn or digital drawing methods, resulting in inconsistencies and inefficiencies in land mapping
+
+:::
+
+::: {.column width="30%"}
+![](assets/mc_training.png){width="150%" fig-align="center"}
+:::
+:::::
+
+## Methods, Tools & Skills
+
+::::: columns
+::: {.column width="70%"}
+**Processes**
+
+-   **Baseline**
+    -   **Department of Forestry**: international experts digitally classified land cover, with local validation but no capacity built within government to maintain or update the system.
+
+:::
+
+::: {.column width="30%"}
+![](assets/mc_training.png){width="150%" fig-align="center"}
+:::
+:::::
+-->
+```
+
+## Demo
+
+<video controls width="100%" height="auto">
+
+<source src="assets/vbos_v2.mp4" type="video/mp4">
+
+Your browser does not support the video tag. </video> <!--
+## Land cover change Map 2020/2023
+
+::::: columns
+::: {.column width="40%"}
+![](assets/efate_2020.png){width="100%" fig-align="center"}<small><em>Efate Land cover, 2020</em></small>
+:::
+
+::: {.column width="20%"}
+![](assets/legend.png){width="70%" fig-align="center"}
+:::
+
+::: {.column width="40%"}
+![](assets/efate_2023.png){width="100%" fig-align="center"}<small><em>Efate Land cover, 2023</em></small>
+:::
+:::::
+
+-->
+
+## Key Findings
+
+**Table 1: Physical Account for Land Cover (SqKm)** ![](assets/findings.png){width="100%" fig-align="center"}
+
+## Key Findings
+
+```{=html}
+<style>
+  #powerbi-frame { position: relative; z-index: 1; }
+  .reveal .slides section { background: none !important; }
+</style>
+```
+
+<iframe id="powerbi-frame" width="100%" height="600px" frameborder="0" allowfullscreen="true" sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-top-navigation" loading="lazy">
+
+</iframe>
+
+```{=html}
+<script>
+  function loadPowerBI() {
+    const frame = document.getElementById("powerbi-frame");
+    if (frame && !frame.src) {
+      setTimeout(() => {
+        frame.src = "https://app.powerbi.com/view?r=eyJrIjoiMjRiOTIzZDItODk5My00YmQ1LTgxZDUtNDc5MTM5OWVkNTY5IiwidCI6IjdiYjVmYjE5LTU5ZDMtNDE5MC04NzFiLWI3OTU4M2I3NGRhMSJ9";
+        console.log("Power BI iframe loaded after delay");
+      }, 3000);
+    }
+  }
+  document.addEventListener("DOMContentLoaded", loadPowerBI);
+</script>
+```
+
+## Acknowlegement
+
+::::: columns
+::: {.column width="40%"}
+![](assets/acknowledgement.png){width="100%" fig-align="center"}
+:::
+
+::: {.column width="60%"}
+**Coordinating Team**
+
+-   Susie Mento (Senior Statistician)
+-   Javen Wilfred (Statistician)
+-   Vincent Wells (Assistant Statistician)
+-   Charlington Leo (Deputy Chief Statistician)
+-   Hugo Pigott (Statistical Adviser)
+:::
+:::::
+
+## Acknowlegement
+
+::::: columns
+::: {.column width="40%"}
+![](assets/acknowledgement.png){width="100%" fig-align="center"}
+:::
+
+::: {.column width="60%"}
+**Departments involved in Training**
+
+-   Vanuatu Bureau of Statistics
+-   Department of Forestry
+-   Department of Lands
+-   National Disaster Management Office
+-   Department of Urban Affairs & Planning
+:::
+:::::
